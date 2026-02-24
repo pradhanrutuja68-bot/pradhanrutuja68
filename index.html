@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f0f0f;
+            color: #ffffff;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #1a1a1a;
+        }
+
+        nav .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #00bcd4;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            color: #00bcd4;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero h1 span {
+            color: #00bcd4;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #aaaaaa;
+            margin-bottom: 30px;
+        }
+
+        .hero a {
+            background-color: #00bcd4;
+            color: #000;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .about {
+            padding: 60px 40px;
+            max-width: 700px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+            color: #00bcd4;
+        }
+
+        .about p {
+            color: #aaaaaa;
+            line-height: 1.8;
+        }
+
+        .skills {
+            text-align: center;
+            padding: 60px 40px;
+            background-color: #1a1a1a;
+        }
+
+        .skills h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: #00bcd4;
+        }
+
+        .skills-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            background-color: #0f0f0f;
+            padding: 12px 25px;
+            border-radius: 25px;
+            border: 1px solid #00bcd4;
+            color: #00bcd4;
+        }
+
+        .projects {
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .projects h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: #00bcd4;
+        }
+
+        .projects p {
+            color: #aaaaaa;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #1a1a1a;
+            color: #aaaaaa;
+        }
+
+        footer a {
+            color: #00bcd4;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">RANI</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>Hi, I'm <span>RANI</span></h1>
+        <p>Aspiring Web Developer</p>
+        <a href="#projects">View My Work</a>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            I'm a beginner web developer currently learning HTML, CSS, and JavaScript.
+            I'm passionate about building things for the web and improving every day.
+        </p>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">C++</div>
+            <div class="skill">Java</div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <p>Projects coming soon as I keep learning!</p>
+    </section>
+
+    <footer id="contact">
+        <p>Made by <a href="#">RANI</a> · <a href="https://github.com/yourusername">GitHub</a></p>
+    </footer>
+
+</body>
+</html>
